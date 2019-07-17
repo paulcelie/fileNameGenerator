@@ -10,7 +10,7 @@ use FileNameGenerator\Validator\Exception\ValidationException;
  */
 class FileNameValidator extends NoEmptyStringValidator
 {
-    const REGEX = '/[\\\"\*<>\|:\/]/';
+    protected const REGEX = '/[\\\"\*<>\|:\/]/';
 
     /**
      * @param string $value

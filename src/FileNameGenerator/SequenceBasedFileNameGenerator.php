@@ -11,7 +11,7 @@ use FileNameGenerator\Validator\NullOrIntValidator;
  */
 class SequenceBasedFileNameGenerator extends AbstractFileNameGenerator
 {
-    const SEQUENCE_START = 1;
+    protected const SEQUENCE_START = 1;
 
     /**
      * @return string
