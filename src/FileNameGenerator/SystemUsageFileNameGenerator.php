@@ -12,8 +12,8 @@ use FileNameGenerator\Validator\NoEmptyStringValidator;
  */
 class SystemUsageFileNameGenerator extends AbstractFileNameGenerator
 {
-    const METRIC_CPU    = 'cpu';
-    const METRIC_MEMORY = 'memory';
+    public const METRIC_CPU    = 'cpu';
+    public const METRIC_MEMORY = 'memory';
 
     /**
      * @return string

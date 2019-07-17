@@ -8,10 +8,10 @@ namespace FileNameGenerator\FileNameGenerator;
  */
 interface FileNameGeneratorInterface
 {
-    const EXTENSION_TXT = 'txt';
-    const EXTENSION_CSV = 'csv';
+    public const EXTENSION_TXT = 'txt';
+    public const EXTENSION_CSV = 'csv';
 
-    const DEFAULT_EXTENSION = self::EXTENSION_TXT;
+    public const DEFAULT_EXTENSION = self::EXTENSION_TXT;
 
     /**
      * @return string
